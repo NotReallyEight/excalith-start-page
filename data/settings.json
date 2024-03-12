@@ -1,5 +1,5 @@
 {
-	"username": "Excalith",
+	"username": "NotReallyEight",
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "assets/wallpaper.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -27,7 +27,7 @@
 		"windowGlowColor": "#291f3325",
 		"textGlow": false,
 		"opacity": 0,
-		"blur": 16
+		"blur": 50
 	},
 	"prompt": {
 		"ctrlC": true,
@@ -65,7 +65,7 @@
 		"hoverColor": "magenta"
 	},
 	"search": {
-		"default": "https://google.com/search?q=",
+		"default": "https://duckduckgo.com/?q=",
 		"target": "_self",
 		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
 		"shortcuts": [
@@ -78,11 +78,6 @@
 				"alias": "d",
 				"name": "DuckDuckGo Search",
 				"url": "https://duckduckgo.com/?q={}"
-			},
-			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
 			},
 			{
 				"alias": "gh",
@@ -114,14 +109,14 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Gmail",
+						"url": "https://mail.google.com/",
+						"icon": "mdi:gmail"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Google News",
+						"url": "https://news.google.com/",
+						"icon": "simple-icons:googlenews"
 					},
 					{
 						"name": "GPT",
@@ -129,9 +124,9 @@
 						"icon": "simple-icons:openai"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Portfolio",
+						"url": "https://notreallyeight.dev",
+						"icon": "mdi:web"
 					}
 				]
 			},
@@ -173,19 +168,19 @@
 						"icon": "mdi:twitter"
 					},
 					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
 						"name": "Reddit",
 						"url": "https://reddit.com",
 						"icon": "mdi:reddit"
 					},
 					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
+						"name": "Quora",
+						"url": "https://quora.com/",
+						"icon": "mdi:quora"
+					},
+					{
+						"name": "Telegram",
+						"url": "https://web.telegram.org/",
+						"icon": "simple-icons:telegram"
 					}
 				]
 			},
@@ -195,78 +190,41 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "Epic Games",
+						"url": "https://epicgames.com/",
+						"icon": "simple-icons:epicgames"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "Steam",
+						"url": "https://store.steampowered.com/",
+						"icon": "mdi:steam"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
-					},
-					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
+						"name": "Ubisoft",
+						"url": "https://www.ubisoft.com/",
+						"icon": "mdi:ubisoft"
 					}
 				]
 			},
 			{
-				"title": "Science",
-				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
-					},
-					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				"title": "Tech",
+				"title": "Personal",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "F. De Sanctis",
+						"url": "http://www.iissdesanctis.it/",
+						"icon": "mdi:web"
 					},
 					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"name": "My Lioni",
+						"url": "https://lioni.mycity.it/notizie/",
+						"icon": "mdi:web"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "Ko-Fi",
+						"url": "https://kofi.com/",
+						"icon": "simple-icons:kofi"
 					}
 				]
 			}
