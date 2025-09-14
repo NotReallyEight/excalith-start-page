@@ -96,7 +96,7 @@ export default function Home() {
 							${settings.wallpaper.fadeIn && "duration-1000"}
 							${settings.wallpaper.blur && "blur-wallpaper"}
 							${isLoaded ? "opacity-100" : "opacity-0"}`}
-							src="/wallpaper.webp"
+							src="/wallpaper.png"
 							quality={80}
 							fill
 							onLoad={() => {
