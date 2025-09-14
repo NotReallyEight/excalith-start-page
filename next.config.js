@@ -16,7 +16,8 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "**"
 			}
-		]
+		],
+		minimumCacheTTL: 86400
 	},
 	headers: () => [
 		{
