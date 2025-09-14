@@ -70,15 +70,15 @@ export default function Home() {
 		}
 
 		// Set Wallpaper
-		fetchAsset(settings.wallpaper.url)
-			.then((data) => {
-				if (data) {
-					setWallpaper(data)
-				}
-			})
-			.catch((error) => {
-				console.error("Failed to fetch wallpaper:", error)
-			})
+		// fetchAsset(settings.wallpaper.url)
+		// 	.then((data) => {
+		// 		if (data) {
+		// 			setWallpaper(data)
+		// 		}
+		// 	})
+		// 	.catch((error) => {
+		// 		console.error("Failed to fetch wallpaper:", error)
+		// 	})
 
 		setIsReady(true)
 	}, [settings])
@@ -98,6 +98,7 @@ export default function Home() {
 							${isLoaded ? "opacity-100" : "opacity-0"}`}
 							src="/wallpaper.png"
 							quality={80}
+							unoptimized
 							fill
 							onLoad={() => {
 								setIsLoaded(true)
