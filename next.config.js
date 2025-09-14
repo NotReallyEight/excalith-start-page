@@ -19,17 +19,6 @@ const nextConfig = {
 		],
 		minimumCacheTTL: 86400
 	},
-	headers: () => [
-		{
-			source: "/:path*",
-			headers: [
-				{
-					key: "Cache-Control",
-					value: "no-store"
-				}
-			]
-		}
-	],
 	webpack(config) {
 		config.resolve.fallback = {
 			// if you miss it, all the other options in fallback, specified
