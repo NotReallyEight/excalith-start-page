@@ -120,12 +120,12 @@
 					},
 					{
 						"name": "GPT",
-						"url": "https://chat.openai.com/",
+						"url": "https://chatgpt.com/",
 						"icon": "simple-icons:openai"
 					},
 					{
 						"name": "Portfolio",
-						"url": "https://notreallyeight.dev",
+						"url": "https://antoniowang.dev",
 						"icon": "mdi:web"
 					}
 				]
@@ -163,8 +163,8 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
+						"name": "X",
+						"url": "https://x.com",
 						"icon": "mdi:twitter"
 					},
 					{
@@ -213,7 +213,7 @@
 				"links": [
 					{
 						"name": "F. De Sanctis",
-						"url": "http://www.iissdesanctis.it/",
+						"url": "http://www.iissdesanctis.edu.it/",
 						"icon": "mdi:web"
 					},
 					{
@@ -225,6 +225,11 @@
 						"name": "Ko-Fi",
 						"url": "https://kofi.com/",
 						"icon": "simple-icons:kofi"
+					},
+					{
+						"name": "UNISA",
+						"url": "https://web.unisa.it/",
+						"icon": "mdi:web"
 					}
 				]
 			}
